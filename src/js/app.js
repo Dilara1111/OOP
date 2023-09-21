@@ -35,7 +35,8 @@ FullName()
     return '${this.ad} ${this.soyad}';
 }}
 const user = new User("Nuray","Orucova","123456789");
-function nameToUpperCase(){
-   console.log(FullName.nameToUpperCase)
+function nameInUpperCase(){
+   const fullName = user.FullName();
+   const fullNameInUpperCase = fullName.toUpperCase(;)
 
 }
